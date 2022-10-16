@@ -1,0 +1,1063 @@
+body, html{
+	width: 1124px;
+	box-sizing: border-box;
+	background: #F2F2F2; /*#F2F2F2*/
+	margin: 0 auto;
+	position: relative;
+}
+
+.header_container{
+	position: fixed;
+	width: 1124px;
+	height: 72px;
+	left: auto;
+	top: auto;
+	background: #FFFFFF;
+	z-index: 10;
+	margin: 0 auto;
+}
+
+.welkome{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 78px;
+height: 40px;
+top: 20px;
+left: 923px;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+align-items: center;
+text-align: center;
+color: #1D1D1D;
+}
+
+.welkome{
+border: 1px solid #E0E0E0;
+border-radius: 2px;
+}
+
+.logo{
+	position: absolute;
+	width: 119.23px;
+	height: 12.31px;
+	left: 81.38px;
+	top: 30px;
+}
+
+.logo_2{
+	position: absolute;
+	width: 19px;
+	height: 22px;
+	right: 97.05px;
+	top: 24.91px;
+}
+.container{
+	width: 1124px;
+	height: 72px;
+	left: auto;
+	top: auto;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+@media (max-width: 1200px){
+	.conainer_header,.container_content,.conainer_footer{
+		max-width: 970px;
+	}
+}
+@media screen and (max-width: 992px){
+	{
+		max-width: 750px;
+	}
+}
+@media screen and (max-width: 768px){
+	{
+		max-width: none;
+	}
+}
+
+    /*Шапка закончена*/
+          /*Контент*/
+
+.content_box{
+}
+
+
+.search{
+position: absolute;
+width: 956px;
+height: 24px;
+left: 81px;
+top: 128px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: left;
+
+color: #626262;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.search{
+border-bottom: 1px solid #757575;
+}
+
+.restourants{
+position: absolute;
+width: 217px;
+height: 34px;
+left: 81px;
+top: 208px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 34px;
+/* identical to box height, or 155% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+
+
+/*ТОВАРЫ*/
+
+
+.mac_gaseta{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 81px;
+top: 258px;
+}
+/*
+.mac_logo{
+position: absolute;
+top: 258px;
+left: 81px;
+}
+*/
+
+.txt_gaset{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+.burgers{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #626262;
+}
+.time1{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+
+.dimsum_cdm{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 405px;
+top: 258px;
+}
+.dimsum_logo{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+
+.txt_dimsum{/* Макдоналдс — Газетны */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+
+.Japan_txt{/*₽ • Японская • Китайская • Азиатская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+
+color: #626262;
+}
+.time2{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+
+color: #1D1D1D;
+}
+
+
+
+
+.dvigok_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 729px;
+top: 258px;
+}
+.Amerikan_logo{ /* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.txt_dvig{ /*ДвижОК — Манежная*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.amerikan_txt{/*₽ • Американская • Европейская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time3{/*35 - 45 мин*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+.nha_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 81px;
+top: 640px;
+}
+.vietnamskaya_nha_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.txt_na_nha{ /*НЯ — NHA*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.txt_vietnamskaya{/*₽₽ • Вьетнамская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time4{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+
+
+
+.tochka_dzi_flovery_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 405px;
+top: 640px;
+}
+.vietnamskaya_dzi_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+
+.txt_tochka_dzi{/*Точка Дзы — Цветной*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.txt_vietnamskaya2{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time5{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+
+
+
+.cinnabon_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 729px;
+top: 640px;
+}
+.cinnabon_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.cinnabon_txt{ /*Cinnabon*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.Cinnabon_vipechka{/*₽ • Выпечка • Десерты • Капкейки*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time6{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+
+
+
+.pizza_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 81px;
+top: 1022px;
+}
+.pizza_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.txt_pizzalove{/*PIZZELOVE*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.txt_pizza{/*₽₽ • Пицца*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time7{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+
+
+.zi_cafe_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 405px;
+top: 1022px;
+}
+.zi_cafe_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.txt_zi_cafe{/*Zю кафе — Тверская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.txt_japan_cafe{/*₽₽ • Японская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time8{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+
+
+
+.bar_bq_cafe_box{
+position: absolute;
+width: 308px;
+height: 366px;
+left: 729px;
+top: 1022px;
+}
+.bar_bq_cafe_logo{/* photo */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 30.05%;
+}
+.txt_bar_bq_cafe{/*Bar BQ Cafe — Манежная*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 74.32%;
+bottom: 19.13%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+.txt_Europeiskaya{/*₽₽₽ • Европейская*/
+position: absolute;
+left: 0%;
+right: 0%;
+top: 81.97%;
+bottom: 12.3%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+color: #626262;
+}
+.time9{/* 25 - 35 Min */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 88.8%;
+bottom: 5.46%;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+display: flex;
+align-items: center;
+color: #1D1D1D;
+}
+
+
+/*Контент закончен*/
+/*Начало футера(подвала)*/
+.footer_container{
+position: absolute;
+width: 1124px;
+height: 552px;
+left: 0px;
+top: 1468px;
+background: #262626;
+}
+.footer_logo{/* white-logo */
+position: absolute;
+width: 190.77px;
+height: 19.69px;
+left: 81.62px;
+top: 5px;   /*36.31px*/
+margin: 48.15px 0;
+}
+.help{
+width: 956px;
+height: 116px;
+margin: 0 0 0 81px;
+text-align: center;
+}
+.help{
+justify-content: center;
+border-bottom: 0.4px solid #FFFFFF;
+}
+
+
+
+
+.ubereats{/* About UberEats */
+position: absolute;
+width: 76px;
+height: 16px;
+left: 405px;
+top: 156px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.predloshenie{
+position: absolute;
+width: 196px;
+height: 16px;
+left: 405px;
+top: 195px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.predloshenie2{
+position: absolute;
+width: 190px;
+height: 16px;
+left: 405px;
+top: 234px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.city{
+position: absolute;
+width: 67px;
+height: 16px;
+left: 729px;
+top: 156px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.buy{
+position: absolute;
+width: 34px;
+height: 16px;
+left: 729px;
+top: 195px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.pomosh{
+position: absolute;
+width: 52px;
+height: 16px;
+left: 729px;
+top: 234px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+isplay: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.faqs{
+position: absolute;
+width: 31px;
+height: 16px;
+left: 729px;
+top: 273px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.ubereats_img{
+position: absolute;
+width: 92px;
+height: 60px;
+left: 81px;
+top: 222px;
+}
+
+.help1{
+width: 956px;
+height: 1px;
+margin: 220px 0 0 81px;
+text-align: center;
+}
+.help1{
+justify-content: center;
+border-top: 0.4px solid #FFFFFF;
+}
+
+
+.app_store{
+position: absolute;
+width: 120.66px;
+height: 40px;
+left: 421px;
+bottom: 133px;
+}
+.google_play{
+position: absolute;
+width: 135px;
+height: 40px;
+left: 582px;
+bottom: 134px;
+}
+
+.help2{
+width: 956px;
+height: 1px;
+margin: 99px 0 0 81px;
+text-align: center;
+}
+.help2{
+justify-content: center;
+border-top: 0.4px solid #FFFFFF;
+}
+
+.Technologies{
+position: absolute;
+width: 153px;
+height: 13px;
+left: 81px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.obrabotka{
+position: absolute;
+width: 176px;
+height: 13px;
+left: 405px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.soglashenie{
+position: absolute;
+width: 162px;
+height: 13px;
+left: 729px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.house{
+position: fixed;
+width: 80px;
+height: 80px;
+left: 1028px;
+bottom: 24px;
+}
+
+/*Дополнительные стили*/
+#language{
+position: absolute;
+width: 227px;
+height: 40px;
+left: 81px;
+top: 149px;
+background: #3B3B3B;
+color: #FFFFFF;
+border-radius: 2px;
+}
+.russia,.english,.chinese,.arabic{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}

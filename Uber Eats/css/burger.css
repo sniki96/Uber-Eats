@@ -1,0 +1,340 @@
+body, html{
+	width: 1124px;
+	box-sizing: border-box;
+	background: #F2F2F2; /*#F2F2F2*/
+	margin: 0 auto;
+	position: relative;
+}
+.header_container{
+	position: fixed;
+	width: 1124px;
+	height: 72px;
+	left: auto;
+	top: auto;
+	background: #FFFFFF;
+	z-index: 10;
+	margin: 0 auto;
+}
+.welkome{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 78px;
+height: 40px;
+top: 20px;
+left: 923px;
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 24px;
+/* or 185% */
+align-items: center;
+text-align: center;
+color: #1D1D1D;
+}
+.welkome{
+border: 1px solid #E0E0E0;
+border-radius: 2px;
+}
+.logo{
+	position: absolute;
+	width: 119.23px;
+	height: 12.31px;
+	left: 81.38px;
+	top: 30px;
+}
+.logo_2{
+	position: absolute;
+	width: 19px;
+	height: 22px;
+	right: 97.05px;
+	top: 24.91px;
+}
+/*Шапка закончена*/
+
+
+.footer_container{
+position: absolute;
+width: 1124px;
+height: 552px;
+left: 0px;
+top: 1468px;
+background: #262626;
+}
+.footer_logo{/* white-logo */
+position: absolute;
+width: 190.77px;
+height: 19.69px;
+left: 81.62px;
+top: 5px;   /*36.31px*/
+margin: 48.15px 0;
+}
+.help{
+width: 956px;
+height: 116px;
+margin: 0 0 0 81px;
+text-align: center;
+}
+.help{
+justify-content: center;
+border-bottom: 0.4px solid #FFFFFF;
+}
+
+
+
+
+.ubereats{/* About UberEats */
+position: absolute;
+width: 76px;
+height: 16px;
+left: 405px;
+top: 156px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.predloshenie{
+position: absolute;
+width: 196px;
+height: 16px;
+left: 405px;
+top: 195px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.predloshenie2{
+position: absolute;
+width: 190px;
+height: 16px;
+left: 405px;
+top: 234px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.city{
+position: absolute;
+width: 67px;
+height: 16px;
+left: 729px;
+top: 156px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.buy{
+position: absolute;
+width: 34px;
+height: 16px;
+left: 729px;
+top: 195px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.pomosh{
+position: absolute;
+width: 52px;
+height: 16px;
+left: 729px;
+top: 234px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+isplay: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.faqs{
+position: absolute;
+width: 31px;
+height: 16px;
+left: 729px;
+top: 273px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.ubereats_img{
+position: absolute;
+width: 92px;
+height: 60px;
+left: 81px;
+top: 222px;
+}
+
+.help1{
+width: 956px;
+height: 1px;
+margin: 220px 0 0 81px;
+text-align: center;
+}
+.help1{
+justify-content: center;
+border-top: 0.4px solid #FFFFFF;
+}
+
+
+.app_store{
+position: absolute;
+width: 120.66px;
+height: 40px;
+left: 421px;
+bottom: 133px;
+}
+.google_play{
+position: absolute;
+width: 135px;
+height: 40px;
+left: 582px;
+bottom: 134px;
+}
+
+.help2{
+width: 956px;
+height: 1px;
+margin: 99px 0 0 81px;
+text-align: center;
+}
+.help2{
+justify-content: center;
+border-top: 0.4px solid #FFFFFF;
+}
+
+.Technologies{
+position: absolute;
+width: 153px;
+height: 13px;
+left: 81px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.obrabotka{
+position: absolute;
+width: 176px;
+height: 13px;
+left: 405px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+
+display: flex;
+align-items: flex-end;
+
+color: #FFFFFF;
+}
+.soglashenie{
+position: absolute;
+width: 162px;
+height: 13px;
+left: 729px;
+bottom: 40px;
+
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
+.house{
+position: fixed;
+width: 80px;
+height: 80px;
+left: 1028px;
+bottom: 24px;
+}
+
+/*Дополнительные стили*/
+#language{
+position: absolute;
+width: 227px;
+height: 40px;
+left: 81px;
+top: 149px;
+background: #3B3B3B;
+color: #FFFFFF;
+border-radius: 2px;
+}
+.russia,.english,.chinese,.arabic{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+color: #FFFFFF;
+}
